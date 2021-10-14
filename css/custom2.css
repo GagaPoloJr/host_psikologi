@@ -1,0 +1,532 @@
+.tag {
+    display: inline-block;
+}
+
+.jumbotron{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+.jumbotron .container h1{
+    color: #F8BC4C;
+}
+
+.jumbotron .container h2{
+    color: #F8BC4C;
+}
+
+
+.section_visimisi{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 99;
+}
+
+.section_visimisi .header{
+    margin-bottom: 100px;
+}
+.section_visimisi h1, .section_visimisi h3 {
+    color: #F8BC4C;
+}
+
+
+.section_visimisi img.ornament{
+    position: absolute;
+    z-index: -1;
+
+}
+.section_visimisi .ornamentvisi3  {
+   right: 0;
+   top: 0;
+}
+
+.section_visimisi .ornamentvisi1  {
+   left: 0;
+   bottom: 0;
+   
+
+}
+
+.section_visimisi .ornamentvisi2  {
+    right: 0;
+    bottom: -50px;
+ }
+
+@media only screen and (max-width: 600px) {
+    .section_visimisi .ornamentvisi2  {
+        right: 0;
+        bottom: -15px;
+        width: 30px;
+     }
+}
+
+.section_visimisi .ornament_2 {
+    right: 16%;
+    top: 15%;
+}
+
+
+
+.section_visimisi .btn_visimisi{
+    background-color: #111;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 4px 23px -6px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 15px 50px;
+    margin-left: 13px;
+}
+
+.section_visimisi .nav-pills .nav-link, .nav-pills .show>.nav-link {
+    /* background-color: #fff; */
+    background-color: #fff;
+    color: #252B42;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 4px 23px -6px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 15px 50px;
+    margin-left: 13px;
+    margin-top: 6px;
+}
+
+.section_visimisi .nav-pills .nav-link.active {
+    /* background-color: #fff; */
+    background-color:#F8BC4C;
+    color: #fff;
+   
+}
+
+.section_visimisi .content-card{
+    box-shadow: 0px 4px 68px 7px rgba(216, 216, 216, 0.25);
+    border-radius: 16px;
+    padding: 20px;
+    color:#3E3E3E;
+   background-color: white;
+
+    ;
+}
+
+.section_visimisi .card_gdo{
+    margin-bottom: 7px;
+
+}
+
+.section_visimisi .visi .content-card p{
+    color: #666;
+}
+
+
+.section_visimisi img.logokabinet{
+    width: 45%;
+}
+
+.section_visimisi .misi {
+    z-index: 99;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .section_visimisi img.ornament {
+    max-width: 50%;
+    }
+    .section_visimisi img.ornament.mt-5.ornamentvisi2 {
+        max-width: 15%;
+    }
+  }
+  
+
+/*ISI PENGURUS HARIAN */
+
+@media only screen and (max-width: 768px) {
+.section_jumbotron img.logo{
+    width: 200px;
+}
+}
+.section_pengurusharian .btn_visimisi{
+
+    color: #252B42;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 4px 23px -6px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 15px 50px;
+    margin-left: 13px;
+}
+
+.section_pengurusharian .nav-pills .nav-link, .nav-pills .show>.nav-link {
+    /* background-color: #fff; */
+    background-color: #fff;
+    color: #252B42;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 4px 23px -6px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 15px 50px;
+    margin-left: 13px;
+    margin-bottom: 10px;
+}
+
+.section_pengurusharian .nav-pills .nav-link.active {
+    /* background-color: #fff; */
+    background-color:#3e503c;
+    color: #fff;
+   
+}
+
+.section_pengurusharian {
+    padding-bottom: 10%;
+    position: relative;
+}
+.section_pengurusharian .pengurus {
+    margin-top: 5%;
+}
+
+.section_pengurusharian img.ornament{
+    position: absolute;
+    z-index: -1;
+
+}
+.section_pengurusharian .ornamentpengurus1 {
+    right: 0;
+    top: 0;
+    width: 30%;
+}
+
+
+
+.section_pengurusharian .ornamentbulet {
+    left: 0;
+    bottom: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .section_pengurusharian img.ornament {
+    max-width: 30%;
+    }
+    .section_pengurusharian .ornamentbulet {
+        max-width: 30%;
+    }
+  }
+  
+
+.section_pengurusharian .ornamentgaris3 {
+    right: 0;
+    bottom: 0;
+    max-width: 30%;
+}
+
+/*BIRO */
+.section_pengurusharian .pengurus {
+    align-items: center;
+}
+
+.section_pengurusharian .biro {
+    align-items: center;
+    width: 100%;
+}
+
+.section_pengurusharian .biro {
+    color: #3e503c;
+    align-items: center !important;
+    text-align: center;
+}
+
+.section_pengurusharian .garispengurus1 {
+    right: 49.2%;
+    top: 129%;
+}
+
+.section_pengurusharian .garispengurus2 {
+    right: 49.2%;
+    top: 196%;
+}
+
+.section_pengurusharian .garispengurus3 {
+    right: 49.2%;
+    top: 326%;
+}
+
+.section_pengurusharian .card{
+    margin: 5% 0%;
+  }
+  
+.section_pengurusharian .pengurus .card-body{
+    margin: 0% 0% 0% 3%;
+    padding: 6% 0%;
+  }
+
+/* BIRO */
+.section_pengurusharian .section_biro .garispengurusbiro {
+    top: 2%;
+    right: 48%;
+}
+
+.section_pengurusharian .section_biro .garispengurusbiro2 {
+    top: 2%;
+    right: 48%;
+}
+
+hr.garisgaris {
+    border-top: 4px solid rgba;
+} 
+.section_biro .nav-pills .nav-link, .nav-pills .show>.nav-link {
+    /* background-color: #fff; */
+    background-color: #fff;
+    color: #252B42;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 4px 23px -6px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+
+    margin-left: 13px;
+    margin-top:10px;
+}
+
+.section_biro .nav-pills .nav-link.active {
+    /* background-color: #fff; */
+    background-color:#3e503c;
+    color: #fff;
+   
+}
+
+
+h2.header_judul::after,h4.header_judul::after{
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    width: 20%;
+    margin: auto;
+    border-bottom: #790102 4px solid;
+    margin-top: 10px;
+}
+
+/* PROGJA BIRO */
+
+
+
+
+/* BIDANG INTERNAL */
+.section_pengurusharian .section_internal .garispenguruspsdm {
+    top: 6%;
+    right: 48%;
+}
+
+.section_pengurusharian .section_internal .garispenguruskesma {
+    top: 4%;
+    right: 48%;
+}
+
+.section_internal .nav-pills .nav-link, .nav-pills .show>.nav-link {
+    /* background-color: #fff; */
+    background-color: #fff;
+    color: #252B42;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 4px 23px -6px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+
+    margin-left: 13px;
+    margin-top:10px;
+}
+
+.section_internal .nav-pills .nav-link.active {
+    /* background-color: #fff; */
+    background-color:#3e503c;
+    color: #fff;
+   
+}
+
+.section_pengurusharian .section_eksternal .card-body{
+    margin: 0% 0% 0% 3%;
+    padding: 6% 0%;
+  }
+
+  .section_pengurusharian .section_eksternal .progja_kesma {
+    width:100%;
+    height:30%;
+}
+
+/* BIDANG EKSTERNAL */
+.section_pengurusharian .section_eksternal .garispenguruseksternal {
+    top: 4%;
+    right: 48%;
+}
+
+.section_eksternal .nav-pills .nav-link, .nav-pills .show>.nav-link {
+    /* background-color: #fff; */
+    background-color: #fff;
+    color: #252B42;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 4px 23px -6px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+
+    margin-left: 13px;
+    margin-top:10px;
+}
+
+.section_eksternal .nav-pills .nav-link.active {
+    /* background-color: #fff; */
+    background-color:#3e503c;
+    color: #fff;
+   
+}
+
+.section_pengurusharian .section_eksternal .card-body{
+    margin: 0% 0% 0% 3%;
+    padding: 6% 0%;
+  }
+
+  .section_pengurusharian .section_eksternal .progja_kesma {
+    width:100%;
+    height:30%;
+}
+
+
+
+/*Accordion style*/
+.custom-accordion .accordion-item {
+    background-color: #fff;
+    position: relative;
+    background: #3e503c; 
+}
+.custom-accordion .accordion-item .btn-link {
+      display: block;
+      width: 100%;
+      border-radius: 0;
+      padding: 15px;
+      text-decoration: none;
+      text-align: left;
+      color: #F8BC4C;
+      padding-left: 40px;
+      position: relative;
+      background: #fff;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 0px; }
+      .custom-accordion .accordion-item .btn-link:before {
+        font-family: 'FontAwesome';
+        content:"\f009";
+        position: absolute;
+        
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        left: 15px; }
+      .custom-accordion .accordion-item .btn-link[aria-expanded="true"]:before {
+        font-family: 'FontAwesome';
+        content:"\f009";
+        position: absolute;
+        color: #F8BC4C;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        left: 15px; }
+    .custom-accordion .accordion-item.active {
+      z-index: 2;
+      position: relative; }
+      .custom-accordion .accordion-item.active:before {
+        content: "";
+        width: 2px;
+        height: 100%;
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #890a03; }
+      .custom-accordion .accordion-item.active .btn-link {
+        color: #F8BC4C;
+        background: #f8f8fa; }
+    .custom-accordion .accordion-item:first-child .btn-link {
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 0px; }
+    .custom-accordion .accordion-item:last-child .btn-link {
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 0px; }
+    .custom-accordion .accordion-item .accordion-body {
+      padding: 20px 20px 20px 20px;
+      color: #fff; }
+  
+      
+/* 100 HARI KERJA */
+
+.section_100harikerja {
+    background: linear-gradient(90deg, #F8BC4C 50%, #3e503c 50%);
+    z-index: -1;
+}
+
+.section_100harikerja .teks100harikerja{
+    color: white;
+}
+
+.section_100harikerja img.ornament{
+    position: relative;
+    z-index: 0;
+}
+
+.section_100harikerja img.ornamentvideo2 {
+    position: absolute;
+    right: 40px;
+    top: 122%;
+}
+
+.section_100harikerja img.ornamentteman {
+    position: absolute;
+    top: 111%;
+    left: 9%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .section_100harikerja img.ornamentvideo2 {
+        position: absolute;
+        right: 1px;
+        top: 147%;
+        width: 16%;
+    }
+    .section_100harikerja img.ornamentteman {
+        position: absolute;
+        top: 143%;
+        left: 5%;
+        width: 20%;
+    }
+
+    .section_100harikerja p{
+        position: absolute;
+        top: 170%;
+        right: 4px;
+        padding: 0 3px;
+        margin-top: 35px;
+    }
+
+    .section_100harikerja .ornamentbulet {
+        width: 50%;
+        
+    }
+}
+
+.section_100harikerja img.banner_100harikerja{
+    box-shadow: 0px 4px 23px -6px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+
+.section_100harikerja .button_100harikerja{
+    background: #790102;
+    border-radius: 60px;
+    padding: 10px 20px;
+    border:none;
+}
